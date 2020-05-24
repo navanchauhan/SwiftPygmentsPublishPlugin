@@ -32,7 +32,7 @@ public extension Modifier {
             }
             
             // Default: Swift
-            var lexer : Pygments.Lexer = .swift
+            var lexer : Pygments.Lexer = .cmdline
             
             if !markdown.hasPrefix("\n"),
                 let language = markdown.split(separator: "\n").first,
